@@ -13,11 +13,11 @@ using System.Windows.Shapes;
 namespace AnaMPrimerParcial.UI
 {
     /// <summary>
-    /// Interaction logic for RegistroVehiculo.xaml
+    /// Interaction logic for registroArticulos.xaml
     /// </summary>
-    public partial class RegistroVehiculo : Window
+    public partial class registroArticulos : Window
     {
-        public RegistroVehiculo()
+        public registroArticulos()
         {
             InitializeComponent();
         }
