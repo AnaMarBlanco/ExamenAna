@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AnaMPrimerParcial.UI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,12 @@ namespace AnaMPrimerParcial
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            registroArticulos ra = new registroArticulos();
+            ra.ShowDialog();
         }
     }
 }
