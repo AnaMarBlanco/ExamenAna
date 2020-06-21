@@ -10,6 +10,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Casita.png" />
+    <None Remove="mono1.png" />
+    <None Remove="UI\add-item_25362.png" />
+    <None Remove="UI\icono.png" />
+    <None Remove="UI\mailchimp_logo_icon_145088.png" />
+    <None Remove="UI\mejoradashoppingbag.png" />
+    <None Remove="UI\remove-item_25316.png" />
+    <None Remove="UI\savedisk_floppydisk_guardar_1543.png" />
+    <None Remove="UI\shopping_bag_22119.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="DATA\" />
     
     
@@ -21,6 +33,18 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Casita.png" />
+    <Resource Include="mono1.png" />
+    <Resource Include="UI\add-item_25362.png" />
+    <Resource Include="UI\icono.png" />
+    <Resource Include="UI\mailchimp_logo_icon_145088.png" />
+    <Resource Include="UI\mejoradashoppingbag.png" />
+    <Resource Include="UI\remove-item_25316.png" />
+    <Resource Include="UI\savedisk_floppydisk_guardar_1543.png" />
+    <Resource Include="UI\shopping_bag_22119.png" />
   </ItemGroup>
 
 </Project>

@@ -13,7 +13,7 @@ namespace AnaMPrimerParcial.DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("DATA source= DATA/Database.db");
+            optionsBuilder.UseSqlite(@"Data Source= DATA\Database.db;");
 
 
         }

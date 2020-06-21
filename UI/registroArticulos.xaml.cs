@@ -52,8 +52,8 @@ namespace AnaMPrimerParcial.UI
 
         private void GuardarButton_Click(object sender, RoutedEventArgs e)
         {
-            ValorTextBox.Text = (Convert.ToInt32(ExistenciasTextBox.Text) * Convert.ToDecimal(CostoTextBox.Text)).ToString();
-            var paso = ArticulosBLL.Guardar(articulo);
+            
+            var paso = ArticulosBLL.Insertar(articulo);
 
             if (paso)
             {

@@ -5,10 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AnaMPrimerParcial"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+       
+        Title="AnaMar Soft" Height="400" Width="400" FontSize="18px" Icon="/mono1.png">
     <Grid>
         <Menu>
-            <MenuItem Header="Articulos" Click="MenuItem_Click"></MenuItem>
+            <MenuItem Header="  Articulos" Click="MenuItem_Click" Width="90" FontSize="14" ></MenuItem>
+
         </Menu>
+
+        <Image x:Name="image"  HorizontalAlignment="Center"   Width="286" Source="/Casita.png" Margin="0,108,0,66"/>
+        <Label x:Name="label" Content="Bienvenidos" HorizontalAlignment="Center" Margin="0,52,0,0" VerticalAlignment="Top" FontFamily="Century Schoolbook" FontSize="22"/>
+
+
     </Grid>
 </Window>

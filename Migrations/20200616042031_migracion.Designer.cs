@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AnaMPrimerParcial.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20200616034300_migracion")]
+    [Migration("20200616042031_migracion")]
     partial class migracion
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
